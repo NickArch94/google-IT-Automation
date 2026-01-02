@@ -23,3 +23,23 @@ Python is easy to write, maintain, and understand. This makes writing code with 
 
 ### Keywords:
 - Reserved words Python uses for specific instuctions.
+
+### JupyterLabs & Jupyter Notebooks
+- Jupyter Notebooks are web-based, self-contained environments thtat let you develop and debug Python code within a Juptyer Notebook itself.
+- JupyerLab is a FOSS web-based environment to host Jupyter notebooks.
+
+## Practice Code:
+"Consider this scenario about using Python to make calculations:
+
+In a managed computing environment, there are 200 remote computers that must download 200 MB (megabytes) of updates each month. There are 1024 KB (kilobytes) in each MB.
+
+Fill in the blank in the code below to compute the number of total kilobytes downloaded by all computers from the remote update server each month. Multiply the total number of computers by the download size in KB to calculate."
+
+``` python
+download_size_kb = 200*1024
+total_computers = 200
+total_kbs = 40960000.0 
+
+print(total_kbs) 
+#40960000.0
+```
